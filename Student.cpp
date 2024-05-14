@@ -45,3 +45,18 @@ float Student::getGPA()
 	return gpa;
 }
 
+bool Student::changeMajor(string newMajor)
+{
+	// usually, you have procedures to do this, but we will make it simple
+	setMajor(newMajor);// just to make things simple 
+	return true;
+}
+
+void Student::printStudentInfo()
+{
+	cout << getName() << endl;
+	cout << getMajor() << endl;
+	cout << getAccessID() << endl;
+	cout << getGPA() << endl;
+
+}

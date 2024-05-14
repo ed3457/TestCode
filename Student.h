@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std; 
 class Student
 {
@@ -15,7 +16,7 @@ private:
 public: 
 	void printStudentInfo();
 	bool changeMajor(string newMajor);
-	float calcGPA();
+	//float calcGPA();
 
 	// setters and getters 
 	// setter: function that is used to change the value of a data field 
